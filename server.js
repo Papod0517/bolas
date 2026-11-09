@@ -3,7 +3,7 @@ const { Server } = require('socket.io');
 
 const io = new Server(3000, { cors: { origin: "*" } });
 
-const tiktokUsername = "glotonito2";
+const tiktokUsername = "glotonito3";
 
 // userId -> Promise<dataURI | null>
 const cacheAvatares = new Map();
